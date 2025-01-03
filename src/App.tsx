@@ -7,6 +7,8 @@ import {
   Toolbar,
   Tooltip,
   useTheme,
+  Paper,
+  Typography,
 } from "@mui/material";
 import { useContext, useMemo } from "react";
 import { ThemeContext } from "./theme";
@@ -57,6 +59,9 @@ function App() {
             </Box>
           </Toolbar>
         </AppBar>
+        <Paper square>
+          <Typography>Hello world</Typography>
+        </Paper>
       </Container>
     </>
   );
